@@ -18,4 +18,4 @@ BioMIR does not currently conduct human subject research or collect user data fo
 
 ## Contact
 For questions or support, contact:
-yonathan.emmanuel@icloud.com
+biomir.inc@icloud.com
