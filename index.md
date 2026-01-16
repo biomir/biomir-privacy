@@ -4,9 +4,9 @@ Last updated: January 2026
 
 BioMIR is a privacy-first health and wellness application designed to operate entirely on the user’s device.
 
-────────────────────────
+─────────────────
 Data Collection
-────────────────────────
+─────────────────
 
 BioMIR accesses health and clinical data only with explicit user authorization via Apple HealthKit and Apple Clinical Health Records (CHR).
 
@@ -25,9 +25,9 @@ All health and clinical data accessed by BioMIR is:
 
 BioMIR does not operate any backend servers for health data processing.
 
-────────────────────────
+──────────
 Data Usage
-────────────────────────
+──────────
 
 Health and clinical data is used solely to provide:
 • On-device analytics
@@ -69,9 +69,9 @@ BioMIR does not conduct human-subject research and does not collect user data fo
 
 No health or clinical data is retained by BioMIR after permissions are revoked beyond what remains locally on the user’s device under iOS control.
 
-────────────────────────
+──────────
 Contact
-────────────────────────
+──────────
 
 For questions or support, please contact:
 biomir.inc@icloud.com
