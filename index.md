@@ -13,38 +13,30 @@
     color: #111;
     background-color: #fff;
   }
-
   h1 {
     font-size: 1.6rem;
     margin-bottom: 0.25em;
   }
-
   .updated {
     color: #666;
     font-size: 0.9rem;
     margin-bottom: 1.5em;
   }
-
   .section {
     margin-top: 2.2em;
   }
-
   .divider {
     height: 1px;
     background-color: #999;
     margin: 1.2em 0 0.6em 0;
   }
-
   .section-title {
     font-weight: 600;
-    text-transform: none;
     margin-bottom: 0.6em;
   }
-
   ul {
     margin-left: 1.2em;
   }
-
   li {
     margin-bottom: 0.3em;
   }
@@ -81,15 +73,15 @@ BioMIR is a privacy-first health and wellness application designed to operate en
   <div class="divider"></div>
   <div class="section-title">Data Processing and Storage</div>
 
-  <p>All health and clinical data accessed by BioMIR is:</p>
+  <p>For the current version of BioMIR:</p>
   <ul>
-    <li>Processed entirely on-device</li>
-    <li>Stored locally within the app’s sandbox</li>
-    <li>Never uploaded, transmitted, synced, or backed up to external servers</li>
+    <li>All health and clinical data is processed entirely on the user’s device</li>
+    <li>Data is stored locally within the app’s sandbox</li>
+    <li>No health or clinical data is uploaded, transmitted, synced, or backed up to external servers</li>
   </ul>
 
   <p>
-  BioMIR does not operate backend servers for health or clinical data processing.
+  BioMIR does not operate backend servers for health or clinical data collection or processing in this app.
   </p>
 </div>
 
@@ -107,9 +99,9 @@ BioMIR is a privacy-first health and wellness application designed to operate en
   <p>BioMIR does not use health or clinical data for:</p>
   <ul>
     <li>Advertising or ad targeting</li>
-    <li>Tracking across apps or services</li>
+    <li>Cross-app or cross-service tracking</li>
     <li>Marketing, profiling, or monetization</li>
-    <li>Sale, licensing, or brokerage</li>
+    <li>Sale, licensing, or brokerage of data</li>
     <li>Training machine-learning models or research datasets</li>
   </ul>
 </div>
@@ -151,22 +143,22 @@ BioMIR is a privacy-first health and wellness application designed to operate en
 
 <div class="section">
   <div class="divider"></div>
-  <div class="section-title">Research and Consent</div>
+  <div class="section-title">Research and Future Use</div>
 
   <p>
   BioMIR does not currently conduct human-subject research and does not collect user data for research purposes.
   </p>
 
   <p>
-  If future research features are introduced, participation will be strictly opt-in and subject to explicit, informed user consent presented within the app.
+  Any future research functionality would be introduced separately from this app, would not apply retroactively to existing data, and would require explicit, informed user consent presented at the time of participation.
   </p>
 
   <p>
-  Any future research activities would be conducted in compliance with applicable ethical, legal, and regulatory standards, including review and approval by an appropriate Institutional Review Board (IRB) or equivalent ethics committee where required.
+  If such research is introduced, it would be conducted in compliance with applicable ethical, legal, and regulatory standards, including review and approval by an appropriate Institutional Review Board (IRB) or equivalent ethics committee where required.
   </p>
 
   <p>
-  All research data, if collected, would be de-identified or anonymized prior to analysis and handled in accordance with applicable privacy and data protection regulations.
+  Any research data collected in the future would be de-identified or anonymized and governed by separate disclosures, consent materials, and data handling practices specific to that research activity.
   </p>
 </div>
 
