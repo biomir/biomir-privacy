@@ -1,91 +1,187 @@
-<h1>BioMIR Privacy Policy</h1>
-
-<p><strong>Last updated:</strong> January 2026</p>
-
-<p>BioMIR is a privacy-first health and wellness application designed to operate entirely on the user’s device.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BioMIR Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-  /* Centered title with perfectly symmetric rules (mobile-safe) */
-  .bm-rule-title {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin: 22px 0 14px;
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 24px;
+    color: #111;
+    background-color: #fff;
   }
-  .bm-rule-title::before,
-  .bm-rule-title::after {
-    content: "";
-    flex: 1 1 auto;
-    border-top: 1px solid rgba(0,0,0,.35);
+
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.25em;
   }
-  .bm-rule-title span {
-    font-weight: 700;
-    white-space: nowrap;
+
+  .updated {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1.5em;
+  }
+
+  .section {
+    margin-top: 2.2em;
+  }
+
+  .divider {
+    height: 1px;
+    background-color: #999;
+    margin: 1.2em 0 0.6em 0;
+  }
+
+  .section-title {
+    font-weight: 600;
+    text-transform: none;
+    margin-bottom: 0.6em;
+  }
+
+  ul {
+    margin-left: 1.2em;
+  }
+
+  li {
+    margin-bottom: 0.3em;
   }
 </style>
+</head>
 
-<div class="bm-rule-title"><span>Data Collection</span></div>
+<body>
 
-<p>BioMIR accesses health and clinical data only with explicit user authorization via Apple HealthKit and Apple Clinical Health Records (CHR).</p>
+<h1>BioMIR Privacy Policy</h1>
+<div class="updated">Last updated: January 2026</div>
 
-<p>Depending on user permissions, this may include health metrics such as laboratory results, vital signs, and other clinical or wellness data made available through Apple Health.</p>
+<p>
+BioMIR is a privacy-first health and wellness application designed to operate entirely on the user’s device.
+</p>
 
-<p>BioMIR does not collect data independently and does not access any health or clinical information without user consent.</p>
+<div class="section">
+  <div class="divider"></div>
+  <div class="section-title">Data Collection</div>
 
-<div class="bm-rule-title"><span>Data Processing and Storage</span></div>
+  <p>
+  BioMIR accesses health and clinical data only with explicit user authorization via Apple HealthKit and Apple Clinical Health Records (CHR).
+  </p>
 
-<p>All health and clinical data accessed by BioMIR is:</p>
-<ul>
-  <li>Processed entirely on the user’s device</li>
-  <li>Stored locally within the app’s sandbox</li>
-  <li>Never uploaded, transmitted, or synced to external servers</li>
-</ul>
+  <p>
+  Depending on user permissions, this may include laboratory results, vital signs, and other clinical or wellness data made available through Apple Health.
+  </p>
 
-<p>BioMIR does not operate any backend servers for health data processing.</p>
+  <p>
+  BioMIR does not independently collect data and does not access any health or clinical information without user consent.
+  </p>
+</div>
 
-<div class="bm-rule-title"><span>Data Usage</span></div>
+<div class="section">
+  <div class="divider"></div>
+  <div class="section-title">Data Processing and Storage</div>
 
-<p>Health and clinical data is used solely to provide:</p>
-<ul>
-  <li>On-device analytics</li>
-  <li>Visualization of health metrics</li>
-  <li>Personalized, user-facing insights within the app</li>
-</ul>
+  <p>All health and clinical data accessed by BioMIR is:</p>
+  <ul>
+    <li>Processed entirely on-device</li>
+    <li>Stored locally within the app’s sandbox</li>
+    <li>Never uploaded, transmitted, synced, or backed up to external servers</li>
+  </ul>
 
-<p>BioMIR does not use health or clinical data for:</p>
-<ul>
-  <li>Advertising or ad targeting</li>
-  <li>Tracking across apps or services</li>
-  <li>Marketing or profiling purposes</li>
-  <li>Sale, licensing, or brokerage of data</li>
-  <li>Training machine-learning models or research datasets</li>
-</ul>
+  <p>
+  BioMIR does not operate backend servers for health or clinical data processing.
+  </p>
+</div>
 
-<div class="bm-rule-title"><span>Data Sharing and Access</span></div>
+<div class="section">
+  <div class="divider"></div>
+  <div class="section-title">Data Usage</div>
 
-<p>BioMIR does not share health or clinical data with third parties.</p>
+  <p>Authorized health and clinical data is used solely to:</p>
+  <ul>
+    <li>Display user-visible health metrics</li>
+    <li>Generate on-device analytics and trends</li>
+    <li>Provide personalized, user-facing insights within the app</li>
+  </ul>
 
-<p>The developer and company behind BioMIR do not have access to user health data, as it is never transmitted off-device.</p>
+  <p>BioMIR does not use health or clinical data for:</p>
+  <ul>
+    <li>Advertising or ad targeting</li>
+    <li>Tracking across apps or services</li>
+    <li>Marketing, profiling, or monetization</li>
+    <li>Sale, licensing, or brokerage</li>
+    <li>Training machine-learning models or research datasets</li>
+  </ul>
+</div>
 
-<p>Only the user and the operating system (per iOS security architecture) can access stored data.</p>
+<div class="section">
+  <div class="divider"></div>
+  <div class="section-title">Data Sharing and Access</div>
 
-<div class="bm-rule-title"><span>User Control and Revocation</span></div>
+  <p>
+  BioMIR does not share health or clinical data with third parties.
+  </p>
 
-<p>Users may revoke access to HealthKit and Clinical Health Records at any time through:</p>
-<ul>
-  <li>iOS Settings → Privacy &amp; Security → Health → BioMIR</li>
-  <li>In-app data source controls (where available)</li>
-</ul>
+  <p>
+  The developer and company behind BioMIR do not have access to user health data, as it is never transmitted off-device.
+  </p>
 
-<p>When access is revoked, BioMIR can no longer read health or clinical data.</p>
+  <p>
+  Access to stored data is limited to the user and the operating system, consistent with iOS security architecture.
+  </p>
+</div>
 
-<div class="bm-rule-title"><span>Research and Data Retention</span></div>
+<div class="section">
+  <div class="divider"></div>
+  <div class="section-title">User Control and Revocation</div>
 
-<p>BioMIR does not conduct human-subject research and does not collect user data for research purposes.</p>
+  <p>
+  Users may revoke access to HealthKit and Clinical Health Records at any time via:
+  </p>
 
-<p>No health or clinical data is retained by BioMIR after permissions are revoked beyond what remains locally on the user’s device under iOS control.</p>
+  <ul>
+    <li>iOS Settings → Privacy &amp; Security → Health → BioMIR</li>
+    <li>In-app data source controls, where available</li>
+  </ul>
 
-<div class="bm-rule-title"><span>Contact</span></div>
+  <p>
+  Once access is revoked, BioMIR can no longer read health or clinical data.
+  </p>
+</div>
 
-<p>For questions or support, please contact:<br>
-biomir.inc@icloud.com</p>
+<div class="section">
+  <div class="divider"></div>
+  <div class="section-title">Research and Consent</div>
+
+  <p>
+  BioMIR does not currently conduct human-subject research and does not collect user data for research purposes.
+  </p>
+
+  <p>
+  If future research features are introduced, participation will be strictly opt-in and subject to explicit, informed user consent presented within the app.
+  </p>
+
+  <p>
+  Any future research activities would be conducted in compliance with applicable ethical, legal, and regulatory standards, including review and approval by an appropriate Institutional Review Board (IRB) or equivalent ethics committee where required.
+  </p>
+
+  <p>
+  All research data, if collected, would be de-identified or anonymized prior to analysis and handled in accordance with applicable privacy and data protection regulations.
+  </p>
+</div>
+
+<div class="section">
+  <div class="divider"></div>
+  <div class="section-title">Contact</div>
+
+  <p>
+  For questions or support, please contact:
+  </p>
+
+  <p>
+  <a href="mailto:biomir.inc@icloud.com">biomir.inc@icloud.com</a>
+  </p>
+</div>
+
+</body>
+</html>
